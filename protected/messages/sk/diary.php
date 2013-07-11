@@ -1,0 +1,50 @@
+<?php
+return array(
+    'Show previous week'=>'Zobraziť predošlý týždeň',
+    'Show next week'=>'Zobraziť ďalší týždeň',
+    'or choose a date'=>'alebo zvoľte dátum',
+    'Display this date'=>'Zobraziť dátum',
+    
+    'Activity'=>'Aktivita',
+    'Date'=>'Dátum',
+    'Duration'=>'Odtrénovaný čas',
+    'Description'=>'Popis',
+    'Feelings'=>'Pocity',
+    'Visibility'=>'Viditeľnosť',
+    'Heart rate'=>'Tepová frekv.',
+    'HR Zone Time'=>'Čas v tepových zónach',
+    'Distance'=>'Vzdialenosť',
+    'Average Speed'=>'Rýchlosť',
+    'Average Pace'=>'Tempo',
+    'Ascent'=>'Nastúpané metre',
+    'Max Altitude'=>'Max nadmorská výška',
+    'Average Watts'=>'Priemerné Watty',
+    'Avg Watts'=>'Priem. Watty',
+    'Max Watts'=>'Maximálne Watty',
+    'Min'=>'Min',
+    'Avg'=>'Priem.',
+    'Max'=>'Max',
+    'Min heart rate'=>'Najnižší tep',
+    'Avg heart rate'=>'Primerný tep',
+    'Max heart rate'=>'Maximálny tep',
+    'Label'=>'Označenie',
+    
+    'Total'=>'Spolu',
+    'Total workouts completed'=>'Absolvovaných tréningov',
+    'Workouts'=>'Tréningy',
+    'Hours completed'=>'Odtrénovaných hodín',
+    'Hours'=> 'Hodiny',
+    'View workout in details'=>'Zobraziť tréning v detailoch',
+    
+    
+    'Saving training entry for '=>'Uloženie tréningovej jednotky pre deň ',
+    'Updating training entry for '=>'Úprava tréningovej jednotky pre deň ',
+    'Your entry has been succesfully saved'=>'Tréningová jednotka bola úspešne uložená',
+    'Assigning values to <b>Duration</b> helps you calculate zones time.'=>'Vyplnenie poľa <b>Odtrénovaný čas</b> vám pomože vypočítať čas v tepových zónach.',
+    'Click to open this entry'=>'Kliknutím otvoríte záznam',
+    'Click to delete this entry'=>'Kliknutím vymažete záznam',
+    'Are you sure want to remove this entry from your calendar?'=>'Ste si istý, že chcete vymazať tento záznam?',
+    'Entry was deleted'=>'Záznam bol vymazaný',
+
+);
+?>
