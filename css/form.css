@@ -1,0 +1,421 @@
+@font-face {
+	font-family: 'Conv_HANDGOTN';
+	src: local('☺'), url('content/HANDGOTN.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.form, input, select, textarea{color: #555}
+textarea{font: inherit}
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus{
+    outline: none;
+    border-bottom: 1px solid #d91e1e;
+}
+input[type=text], input[type=password], textarea, select{
+/*Tienovanie input poli*/
+    margin: 0.2em 0 0 0;
+    border: 1px solid #DDD;
+    -moz-box-shadow: 0px -1px 0px #ADB1B7;
+    -webkit-box-shadow: 0px -1px 0px #ADB1B7;
+    box-shadow: 0px -1px 0px #ADB1B7;
+}
+
+div.plain-style-form input[type=text], div.plain-style-form input[type=password], div.plain-style-form textArea{
+    background: none;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #AAA;
+}
+div.plain-style-form label.small{
+    float: left;
+    padding: 0.5em 0.5em 0 0;
+}
+
+div.form .row { margin: 15px 0 10px 0;}
+div.form .note { font-style: italic }/*Poznamka*/
+div.form .hint { margin: 0; padding: 0; color: #999 } /*Napoveda*/
+.required, .used, .red { color: #d91e1e } /*Povinne polozky*/
+.requiredField:after { content: ' *';  color: #d91e1e }
+
+.free-to-use{color: #3c9a42}
+/*Deliaca ciara vo formulari*/
+ .clear-line{
+    clear: both;
+    display: block; width: 100%; height: 1px;
+    box-shadow: 0 1px 0 #AAA, 0 2px 0 #FFF
+}
+/*Tlacitko s ceruzkou na upravu poloziek*/
+a.pencil{
+    display: block; width: 40px; height: 40px;
+    background: url('../images/pencil.png') no-repeat;
+}
+
+/*Clear pre tlacidlo ktore potvrdzuje formular*/
+.submit-button { clear: both; margin: 20px 20px 5px 20px}
+/*Vsetky tlacidla potvrdzujuce nejaky formular*/
+input[type=submit],.styled-button{ 
+    display: block; width: 85px; height: 30px;  cursor: pointer;
+    border: 0; border-radius: 3px;
+    box-shadow: 1px 1px 1px #AAA;
+    color: rgba(0,0,0,.55) !important; font-family: 'Conv_HANDGOTN'; font-size: 13px;
+    text-shadow: 1px 1px 1px #FFF;
+    
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+}
+input[type=submit]:hover,.styled-button:hover{
+    background: -moz-radial-gradient(center, ellipse cover, #d91e1e 0%, rgba(217,30,30,.0) 0%),-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 70%, color-stop(0%,#d91e1e), color-stop(70%,rgba(217,30,30,.0))),-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: radial-gradient(ellipse at center, #d91e1e 0%,rgba(217,30,30,.0) 70%),linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background-position: 0 -25px, 0 0; 
+    background-repeat: no-repeat;
+}
+input[type=submit]:active, .styled-button:active{
+    background: -moz-radial-gradient(center, ellipse cover, #d91e1e 0%, rgba(217,30,30,.0) 0%),-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 70%, color-stop(0%,#d91e1e), color-stop(70%,rgba(217,30,30,.0))),-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #d91e1e 0%,rgba(217,30,30,.0) 70%),-ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: radial-gradient(ellipse at center, #d91e1e 0%,rgba(217,30,30,.0) 70%),linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background-position: 0 -22px, 0 0; 
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 1px 1px #AAA, 0 0 2px #AAA;
+}
+.big-button{
+    font-size: 150% !important;
+    width: 125px !important;
+    height: 45px !important;
+}
+.big-button:hover{
+    background-position: 0 -38px, 0 0 !important;
+}
+.big-button:active{
+    background-position: 0 -35px, 0 0 !important;
+}
+.small-button{
+    font-size: 80%;
+    width: 65px; height: 18px !important;
+}
+/*Sekcia ktora sa pusta zhora ponad stranku*/
+div.fl-input-area-bg{display: none;}
+div.fl-input-area-bg{
+    position: fixed; top:0; bottom:0; left: 0; right: 0;
+    background: rgba(120,120,120,0.7); z-index: 11
+}
+div.fl-input-area {
+    position: fixed; top: -1000px; left: 50%;
+    height: 440px; min-width: 700px; margin: -350px;
+    opacity: 0; 
+    border-radius: 10px; box-shadow: 0 15px 10px -10px #444; background: #FFF; z-index: 12
+}
+/*Prihlasovacie a odhlasovacie tlacidlo - pozicia*/
+#login, #logout { position: absolute}
+#login { top: -65px; right: 0 }
+div#login input[type=text], div#login input[type=password]{font-size: 90%}
+#logout{ top: -60px; right: 20px }
+
+/*Prihlasovacie a odhlasovacie tlacidlo dalsie nastavenia*/
+#login .float-left { margin: 5px 10px }
+#login-button{margin: 4px 0}
+
+.styled-button{text-align: center; padding: 6px 6px 0 6px; height: 24px}
+.styled-button:hover{text-decoration: none}
+.wide-button{width: 145px}
+
+/*KONKRETNE FORMULARE A ICH ROZLOZENIE*/
+
+/*Registracny formular*/
+#SignUp-form{width: 50%; min-width: 505px; float: left;}
+div#SignUp-form .float-left{ margin: 20px 20px 10px 20px }/*Odsadenie blokov vo formulari*/
+#SignUp-form input[type=text], #SignUp-form input[type=password], #SignUp-form select{font-size: 120%}/*Zvacsenie pisma v inputoch*/
+
+/*Nalepky pri validacii inputov*/
+.confirmed, .confirmed-ws,.notconfirmed, .notconfirmed-ws{
+    position: relative
+}
+.confirmed input, .confirmed-ws input{
+    background:#e4f2df;
+    border: 1px solid #3c9a42 !important
+}
+.notconfirmed input, .notconfirmed-ws input{ 
+    background: #ffd1d1; 
+    border-color: #d91e1e !important
+}
+.confirmed-ws:after,.notconfirmed-ws:after{   
+    content: '';
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    right: -30px; 
+    top: 15px;
+    background: url('../images/css/checkmarks.png');
+}
+.confirmed-ws:after{
+    background-position: -25px 0
+}
+.notconfirmed-ws:after{
+    background-position: 0 0
+}
+.validation-info{
+    display: block; 
+    height: 13px; 
+    width: 100%
+}
+
+/****************FORMULAR NA UPRAVU PROFILU*************/
+#EditProfile-form, .EditProfile-info, .EditProfile-contact{
+    padding: 0 1%;
+}
+#EditProfile-form, #userProfile{
+    width: 70%; 
+    min-width: 735px;
+    float: right;
+    box-shadow:-1px 0 0 #FFF, -2px 0 0 #AAA;
+}
+div#EditProfile-form #userProfile-mainInfo input {
+    font-size: 140%
+}
+#EditProfile-update-button{
+    position: absolute;
+    top:-20px;
+    right: 20px
+}
+div#EditProfile-form .float-left, div#EditProfile-form .float-right, 
+div#EditProfile-form .row{ 
+    margin: 10px 
+}/*Odsadenie blokov vo formulari*/
+
+div.EditProfile-info .float-left{ 
+    width: 45%
+}
+div.EditProfile-contact{ 
+    width: 40%; 
+    min-width: 250px; 
+    float: right;  
+}
+.EditProfile-info{ 
+    width: 56%; 
+    min-width: 400px; 
+    float: left
+}
+div.EditProfile-info div.classic-box{
+    padding-bottom: 20px;
+}
+div.EditProfile-contact .row{ 
+    width: 100%
+}
+div.EditProfile-contact .row label,
+div.EditProfile-info .float-left label{
+    float: left
+}
+div.EditProfile-contact .row input, 
+div.EditProfile-info .float-left input{
+    float: right
+}
+div.EditProfile-info .float-left select{
+    float: right;
+    width: 45%;
+}
+div.EditProfile-contact .row select{
+    float: right;
+    width: 60%;
+}
+
+.pencil{position: absolute; top: 3px; right: 3px; z-index: 10}
+/*V beznom profile je ceruzka na fotke schovana*/
+div#userProfile .pencil{ display: none } 
+/*Pri uprave profilu je ceruzka na fotke viditelna stale*/
+div#EditProfile-form .pencil{ display: block}
+/*Zobrazenie ceruzky pri hovri nad fotkou*/
+div#userProfile-photo-wrapper:hover .pencil{ display: block }
+#edit-photo {
+    display: block;
+    position: absolute; top: -55px; left: 0;
+    width: 100%; height: 35px;
+    background: rgba(120,120,120,0.8);
+    font-size: 150%; font-weight: bold; color:#444; 
+    text-align: center;
+    padding-top: 11px;
+    box-shadow: 0 5px 10px -5px #444;
+    -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+div#userProfile-photo-wrapper:hover #edit-photo{
+    top: 0; 
+    -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.edit-photo-start{ cursor:  pointer;}
+
+/*FORMULAR PRE UPRAVU SUKROMIA PRI UPRAVE PROFILU*/
+div#EditProfile-privacy-form{ 
+    float:left; width: 24%; position: relative;
+}
+div#EditProfile-privacy-form table{
+    width: 93%;
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    margin: 0 10px;
+}
+div#EditProfile-privacy-form table td, div#EditProfile-privacy-form table th{
+    padding: 6px 0;
+}
+div#EditProfile-privacy-form table tbody th{
+    text-align: left;
+}
+div#EditProfile-privacy-form table tbody td{
+    text-align: center;
+}
+div#EditProfile-privacy-form table #privacy-row-phone,
+div#EditProfile-privacy-form table #privacy-row-country,
+div#EditProfile-privacy-form table #privacy-row-height{
+    border-bottom: 1px solid #aaa;
+}
+div#EditProfile-privacy-form table #privacy-row-street td,
+div#EditProfile-privacy-form table #privacy-row-street th,
+div#EditProfile-privacy-form table #privacy-row-birthday td,
+div#EditProfile-privacy-form table #privacy-row-birthday th,
+div#EditProfile-privacy-form table #privacy-row-max_hr td,
+div#EditProfile-privacy-form table #privacy-row-max_hr th{
+    padding-top: 20px
+}
+#EditProfile-privacy-form .flash-error,
+#EditProfile-privacy-form .flash-success{
+    clear: both;
+    text-align: center;
+    display: none;
+    position: absolute;
+    bottom: -80px;
+    z-index: 20;
+    left: 0;
+    right: 0; 
+}
+#save-privacy-button{
+    position: absolute;
+    left: 50%;
+    margin: 15px 0 0 -75px;
+}
+div#EditProfile-hr-zones-wrapper{
+    float: left;
+    width: 37%;
+    margin: 30px 20px 10px 0;
+}
+div#EditProfile-hr-zones, div#EditProfile-goals{
+    padding-bottom: 1px;
+}
+div#EditProfile-hr-zones table{
+    width: 90%;
+    font-size: 110%;
+    margin: 15px;
+}
+div#EditProfile-hr-zones table td.sep{
+    font-size: 70%;
+}
+#ep-add-z-button{
+    float: left;
+    margin: 15px;
+}
+ #ep-save-z-button{
+    float: right;
+    margin: 15px;
+}
+div#EditProfile-goals-wrapper{
+    float: right;
+    margin-top: 30px;
+    padding: 0 10px 0 20px;
+    width: 58%;
+    box-shadow: -1px 0 0 #FFF, -2px 0 0 #AAA; float: right
+}
+
+/*EXTRA FORMULAR NA UPRAVU FOTOGRAFIE*/
+form#EditPhoto-form{
+    float: left; margin: 20px;
+    position: absolute; top: 0; left: 0; right: 0; height: 20%;
+}
+/*#progress_container{
+    display:none;
+    width: 400px; height: 20px; 
+    clear:both;
+    border: 1px solid #AAA; 
+    border-radius: 3px;
+    box-shadow: 0 7px 10px -10px #444
+}
+#progress_bar{
+    position: relative; height: 20px; width: 0%;
+    background: rgb(255,233,140);  Old browsers 
+    background: -moz-linear-gradient(top, rgba(255,233,140,1) 0%, rgba(235,170,0,1) 58%);  FF3.6+ 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,233,140,1)), color-stop(58%,rgba(235,170,0,1)));  Chrome,Safari4+ 
+    background: -webkit-linear-gradient(top, rgba(255,233,140,1) 0%,rgba(235,170,0,1) 58%);  Chrome10+,Safari5.1+ 
+    background: -o-linear-gradient(top, rgba(255,233,140,1) 0%,rgba(235,170,0,1) 58%);  Opera 11.10+ 
+    background: -ms-linear-gradient(top, rgba(255,233,140,1) 0%,rgba(235,170,0,1) 58%);  IE10+ 
+    background: linear-gradient(to bottom, rgba(255,233,140,1) 0%,rgba(235,170,0,1) 58%);  W3C 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe98c', endColorstr='#ebaa00',GradientType=0 );  IE6-9 
+}
+div#crop-photo-wrapper {
+    position: absolute; top: 20%; left: 0; right: 0; margin: 20px; bottom: 0;
+}*/
+
+
+
+
+/*NOT CHANGED*/
+	
+div.form fieldset {
+	border: 1px solid #DDD;
+	padding: 10px;
+	margin: 0 0 10px 0;
+        -moz-border-radius:7px;
+}
+div.form label {
+	font-weight: bold;
+	font-size: 0.9em;
+	display: block;
+}
+
+
+
+div.form div.error label:first-child, div.form label.error, div.form span.error {
+	color: #C00;
+}
+div.form div.error input, div.form div.error textarea,
+div.form div.error select, div.form input.error,
+div.form textarea.error, div.form select.error {
+	background: #ffd1d1;
+	border-color: #d91e1e
+}
+div.form div.success input, div.form div.success textarea,
+div.form div.success select, div.form input.success,
+div.form textarea.success, div.form select.success {
+	background: #E6EFC2;
+	border-color: #C6D880;
+}
+div.form .errorSummary {
+	border: 2px solid #d91e1e;
+	padding: 7px 7px 12px 7px;
+	margin: 0 0 20px 0;
+	background: rgba(217, 30, 30,0.2);
+	font-size: 0.9em;
+}
+div.form .errorMessage {
+	color: red;
+	font-size: 0.9em;
+}
+div.form .errorSummary p {
+	margin: 0;
+	padding: 5px;
+}
+div.form .errorSummary ul{
+	margin: 0;
+	padding: 0 0 0 20px;
+}

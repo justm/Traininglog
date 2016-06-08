@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210"
+   height="100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="header-abstract.svg"
+   inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/header-abstract.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m -18,-17.5 0,10 10,-5 z"
+       is_visible="true"
+       id="path-effect3763"
+       effect="skeletal" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991"
+       is_visible="true"
+       pattern="m -100.78293,626.88388 0,10 9.999998,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-2"
+       is_visible="true"
+       pattern="m -104.64777,627.03555 0,10 10.000004,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 8.4646497,-17.536152 0,10.0000004 9.9999993,-5.0000004 z"
+       is_visible="true"
+       id="path-effect3763-1"
+       effect="skeletal" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3765-7">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84344843"
+         id="feGaussianBlur3767-2" />
+    </filter>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-2-3"
+       is_visible="true"
+       pattern="m -66.218459,626.79846 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 61.393937,-17.773242 0,10.0000003 10,-5.0000003 z"
+       is_visible="true"
+       id="path-effect3763-1-7"
+       effect="skeletal" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3765-7-4">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84344843"
+         id="feGaussianBlur3767-2-7" />
+    </filter>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-4"
+       is_visible="true"
+       pattern="m -85.433113,626.83461 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 34.929299,-17.737092 0,10.0000003 10,-5.0000003 z"
+       is_visible="true"
+       id="path-effect3763-9"
+       effect="skeletal" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3765-8">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84344843"
+         id="feGaussianBlur3767-3" />
+    </filter>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-2-3-3"
+       is_visible="true"
+       pattern="m -59.746794,626.90863 0,10 10.000003,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-4-6"
+       is_visible="true"
+       pattern="m -123.7909,627.1326 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 34.929299,-17.737092 0,10.0000003 10,-5.0000003 z"
+       is_visible="true"
+       id="path-effect3763-9-0"
+       effect="skeletal" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3765-8-2">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84344843"
+         id="feGaussianBlur3767-3-6" />
+    </filter>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect2991-2-5"
+       is_visible="true"
+       pattern="m -143.00555,627.33354 0,10 10,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="m 8.4646497,-17.536152 0,10.0000004 9.9999993,-5.0000004 z"
+       is_visible="true"
+       id="path-effect3763-1-9"
+       effect="skeletal" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3765-7-2">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.84344843"
+         id="feGaussianBlur3767-2-8" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="99.432028"
+     inkscape:cy="87.015397"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36218)">
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 273.9361,305.94816 151.47323,514.01946"
+       inkscape:path-effect="#path-effect3763-1"
+       id="path3761-4"
+       d="m 278.24516,308.48431 -8.61812,-5.0723 -118.15381,210.60745 z"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3765-7)"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625"
+       transform="matrix(1,0,0,0.49916468,-109.09117,796.01306)" />
+    <path
+       style="fill:#d71e1e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 164.05776,952.54482 -6.46812,-7.6265 -119.228816,107.67518 z"
+       id="path2989-4"
+       inkscape:path-effect="#path-effect2991-2"
+       inkscape:original-d="M 160.8237,948.73157 38.360824,1052.5935"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 300.40075,305.74722 177.93787,513.81852"
+       inkscape:path-effect="#path-effect3763-9"
+       id="path3761-2"
+       d="m 304.70981,308.28337 -8.61812,-5.0723 -118.15382,210.60745 z"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3765-8)"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625"
+       transform="matrix(1,0,0,0.49916468,-116.34117,796.01306)" />
+    <path
+       style="fill:#d71e1e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 183.27239,952.44452 -6.4681,-7.6265 -119.228834,107.67518 z"
+       id="path2989-7"
+       inkscape:path-effect="#path-effect2991-4"
+       inkscape:original-d="M 180.03834,948.63127 57.575456,1052.4932"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 326.8654,305.71107 204.40252,513.78237"
+       inkscape:path-effect="#path-effect3763-1-7"
+       id="path3761-4-5"
+       d="m 331.17446,308.24722 -8.61812,-5.0723 -118.15382,210.60745 z"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3765-7-4)"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625"
+       transform="matrix(1,0,0,0.49916468,-123.59117,796.01306)" />
+    <path
+       style="fill:#d71e1e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 202.48706,952.42647 -6.4681,-7.6265 -119.228834,107.67513 z"
+       id="path2989-4-2"
+       inkscape:path-effect="#path-effect2991-2-3"
+       inkscape:original-d="M 199.25301,948.61322 76.790126,1052.4751"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 273.9361,305.94816 151.47323,514.01946"
+       inkscape:path-effect="#path-effect3763-1-9"
+       id="path3761-4-2"
+       d="m 278.24516,308.48431 -8.61812,-5.0723 -118.15381,210.60745 z"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3765-7-2)"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625"
+       transform="matrix(1,0,0,0.49916468,-147.44895,796.31375)" />
+    <path
+       style="fill:#d71e1e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 125.69997,952.84546 -6.46812,-7.6265 L 0.00302687,1052.8942 z"
+       id="path2989-4-20"
+       inkscape:path-effect="#path-effect2991-2-5"
+       inkscape:original-d="M 122.46591,949.03221 0.00302687,1052.8942"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 300.40075,305.74722 177.93787,513.81852"
+       inkscape:path-effect="#path-effect3763-9-0"
+       id="path3761-2-6"
+       d="m 304.70981,308.28337 -8.61812,-5.0723 -118.15382,210.60745 z"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3765-8-2)"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625"
+       transform="matrix(1,0,0,0.49916468,-154.69895,796.31375)" />
+    <path
+       style="fill:#d71e1e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 144.9146,952.74515 -6.4681,-7.6265 -119.22884,107.67515 z"
+       id="path2989-7-6"
+       inkscape:path-effect="#path-effect2991-4-6"
+       inkscape:original-d="M 141.68055,948.9319 19.21766,1052.7938"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/header-abstract.png"
+       inkscape:export-xdpi="90.029625"
+       inkscape:export-ydpi="90.029625" />
+  </g>
+</svg>
