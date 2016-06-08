@@ -1,8 +1,16 @@
+<IfModule mod_rewrite.c>
 
+Options +FollowSymLinks
 RewriteEngine On
-Options +FollowSymlinks
-# if a directory or a file exists, use it directly
+
+#remove index.php but forward requests to it
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.inhillz.com/ [R=301,L]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# otherwise forward it to index.php
-RewriteRule . index.php
+RewriteRule . /index.php [L]
+
+</IfModule>
