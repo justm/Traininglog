@@ -41,7 +41,6 @@ class DashboardController extends Controller
             $userid = Yii::app()->user->id;
             $date = date('Y-m-d',strtotime('+1 day', strtotime(date('Y-m-d'))));
             
-            
             if(Yii::app()->user->roles == 'athlete') {
                 $sqlStatement = 'SELECT te.*, u.fullname, u.profile_picture, u.gender FROM `training_entry` te 
 				 LEFT JOIN `user` u on te.id_user = u.id 

@@ -17,7 +17,6 @@
     }
     ?>
 </div>
-
 <div id="Dashboard-left-data">
     <div id="Dashboard-quick-plan" class="classic-box">
         <?php
@@ -84,8 +83,8 @@
                 endfor; 
             ?>
     </div><!--END OF Quick Plan-->
-    
     <?php /*
+
     <div id="Dashboard-quick-trainings" class="classic-box">
         <h3><?php echo Yii::t('dashboard','Recent trainings')?></h3>
         <div class="DB-quick-inner">
@@ -246,4 +245,3 @@ Yii::app()->clientScript->registerScript('load-stats',
            }
         });',
         CClientScript::POS_END);
-?>

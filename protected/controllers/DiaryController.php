@@ -559,7 +559,6 @@ class DiaryController extends Controller
                         $sumtotdays += $value->totworkouts;
                         $sumtothours += strtotime("$todayDate $value->tottime") - $todayDatetime;
                     }
-                    
                     echo '</table>';
                     echo '<hr>';
                     echo '<div style="font-size:110%; font-weight: bold">';

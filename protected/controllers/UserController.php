@@ -78,6 +78,7 @@ class UserController extends Controller
         
         ///Metoda zobrazuje profil ineho pouzivatela
         public function actionView($id){
+
             if(isset(Yii::app()->user->roles)){
                 $role = Yii::app()->user->roles;
             }
@@ -112,12 +113,12 @@ class UserController extends Controller
                             'activity_array'=>$activity_array,
                     ));  
                 }
-                
                 elseif($role != 'admin' && $viewed_user_role == 'admin'){
                     $this->render('notfound',array('username'=>$id));
                 }
                 
                 elseif ($viewed_user_role == 'coach' && $role == 'athlete') {
+
                     //TODO skontroluje ci si zverencom trenera, ak ano mozes ho zobrazit
                     if((CoachCooperation::model()->find('id_coach = '.$user->id.
                             ' and id_athlete = '.Yii::app()->user->id.' and status = 1')) != null){
@@ -433,11 +434,13 @@ class UserController extends Controller
                                 and id != '.Yii::app()->user->id.' and id_role = 2 limit 7');
                        
                     }if(($addlimit = 7 - count($users)) != 0){ //doplnenie zoznamu odporucanych ludi podla uz len podla primarnej aktivity
+
                         $id_string = $users[0]->id;
                         for($i = 1; $i< count($users); $i++){
                             $id_string .= ', '.$users[$i]->id;
                         }
                         ($id_string == '') ? $id_string = 0 : $id_string;
+
                         $temp = User::model()->findAll(
                                 'id not in(select id_partner from sparring where id_user = '.Yii::app()->user->id.' and status = 2) 
                                 and id not in('.$id_string.') 
@@ -449,6 +452,7 @@ class UserController extends Controller
                 if(($addlimit = 7 - count($users)) != 0){ //doplnenie zoznamu ludi uz len podla tohoci su v priateloch alebo nie
                     $temp = User::model()->findAll('id not in(select id_partner from sparring where id_user = '.Yii::app()->user->id.' and status = 2)
                         and id != '.Yii::app()->user->id.' and id_role = 2 limit '.$addlimit);
+
                     $users = array_merge($users,$temp);
                 }
                 

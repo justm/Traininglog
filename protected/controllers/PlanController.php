@@ -368,6 +368,7 @@ class PlanController extends Controller
                 $daily_plan[$day->date] .= '<div style="clear:both"></div>';
 
                 $daily_plan[$day->date] .= '<div class="single-day-description">' . $day->description;
+
                 $daily_plan[$day->date] .= '</div>';
                 $temp_old_date = $day->date;
 

@@ -1,5 +1,4 @@
 <?php
-//echo  defined('HHVM_VERSION')?'Using HHVM':'Not using HHVM';
 
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/Yii-php/yii-1.1.12.b600af/framework/yii.php';

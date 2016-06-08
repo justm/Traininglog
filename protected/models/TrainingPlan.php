@@ -43,6 +43,7 @@ class TrainingPlan extends CActiveRecord
 			array('id_user, date', 'required'),
 			array('id_user, id_activity, id_label', 'numerical', 'integerOnly'=>true),
 			array('description', 'length', 'max'=>1000),
+
 			array('duration', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

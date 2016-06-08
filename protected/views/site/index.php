@@ -30,5 +30,3 @@ $this->pageTitle=Yii::app()->name;
     </div> 
 </div>
 
-
-

@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="sport-icons.svg">
   <defs
      id="defs4">
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="402.4692"
-     inkscape:cy="1430.0312"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="938.3219"
+     inkscape:cy="1248.4091"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,7 +69,7 @@
     <rect
        style="fill:#dddddd;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3813"
-       width="1505.1273"
+       width="1916.5559"
        height="533.36053"
        x="-323.24881"
        y="-424.48083" />
@@ -77,7 +77,7 @@
        id="g3782"
        transform="matrix(-1.0067156,0,0,0.99575259,562.52743,-874.37506)"
        style="fill:#d91e1f;fill-opacity:0.94117647"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889">
       <path
@@ -119,7 +119,7 @@
        id="g3855"
        transform="matrix(-0.95497738,0.29050904,0.25108173,1.1049372,682.77995,-1048.5861)"
        style="fill:#ffffff;fill-opacity:1"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889">
       <path
@@ -159,7 +159,7 @@
     <g
        id="g3915"
        transform="matrix(1.13158,0,0,1.1581897,-130.1793,-500.18022)"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889"
        style="fill:#a500a6;fill-opacity:1">
@@ -194,7 +194,7 @@
     <g
        id="g3983"
        transform="matrix(-0.99022911,0,0,0.99022911,864.71025,-724.58431)"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889"
        style="fill:#3d7d00;fill-opacity:1">
@@ -226,7 +226,7 @@
     <g
        id="g4009"
        transform="matrix(-1.0102237,0,0,1.0061867,322.26535,-582.04865)"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889"
        style="fill:#ff8700;fill-opacity:1">
@@ -249,7 +249,7 @@
        id="g4073"
        style="fill:#000000"
        transform="matrix(1.1689498,0,0,1.2181195,337.16801,-1171.2492)"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889">
       <path
@@ -273,7 +273,7 @@
        id="g4132"
        style="fill:#0000ff;fill-opacity:1"
        transform="matrix(-0.26541888,0,0,0.35055994,536.7811,-247.65737)"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889">
       <path
@@ -318,7 +318,7 @@
        y="-86.209236"
        id="text3026"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
        inkscape:export-xdpi="19.798889"
        inkscape:export-ydpi="19.798889"><tspan
          sodipodi:role="line"
@@ -326,5 +326,108 @@
          x="928.66949"
          y="-86.209236"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:HandelGothic BT;-inkscape-font-specification:HandelGothic BT Bold;fill:#dcff02;fill-opacity:1">?</tspan></text>
+    <g
+       id="g3809"
+       transform="translate(0,-9.6844771)"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
+       inkscape:export-xdpi="19"
+       inkscape:export-ydpi="19">
+      <g
+         id="g3025"
+         transform="matrix(-0.84534066,0.22650835,0.22404169,0.836135,1353.9285,-864.82597)"
+         style="fill:#ffff00;fill-opacity:0.94117647"
+         inkscape:export-filename="/home/matus/NetBeansProjects/TrainingLog/images/css/activity-icons-small.png"
+         inkscape:export-xdpi="19.798889"
+         inkscape:export-ydpi="19.798889">
+        <path
+           sodipodi:nodetypes="ssss"
+           inkscape:connector-curvature="0"
+           id="path3027"
+           d="m 479.0268,693.5248 c 4.84407,-0.5179 12.2232,0.98024 12.40178,9.19452 0.17857,8.21429 -8.50938,5.15425 -11.43096,3.65882 -4.32981,-2.21625 -8.60466,-12.03716 -0.97082,-12.85334 z"
+           style="fill:#ffff00;fill-opacity:0.94117647;stroke:none" />
+        <path
+           sodipodi:nodetypes="cssssscsssssc"
+           inkscape:connector-curvature="0"
+           id="path3029"
+           d="m 475.51707,729.88971 c 0,0 18.11781,-1.5636 17.74423,-20.01421 -0.37355,-18.4506 4.93369,-18.87714 15.87643,-18.76332 11.42793,0.11886 34.48657,8.23569 40.90513,14.22886 4.85631,4.53446 10.39678,17.41208 -9.15229,19.70148 -20.23144,2.36934 -26.61201,0.70714 -27.83044,2.34542 -2.1707,2.91869 32.20788,30.62199 32.20788,30.62199 0,0 -40.42626,-17.95674 -43.22797,-25.46208 -3.94614,-10.57102 4.10917,-15.01065 7.65803,-15.79246 3.54885,-0.7818 26.33617,-2.0327 27.27008,-3.28359 0.93391,-1.25088 -17.20745,-12.22843 -32.68675,-11.10162 -4.29597,0.31271 2.80173,9.06894 -2.98848,16.41791 -8.89084,11.28427 -25.77585,11.10162 -25.77585,11.10162 z"
+           style="fill:#ffff00;fill-opacity:0.94117647;stroke:none" />
+        <path
+           sodipodi:nodetypes="cssc"
+           inkscape:connector-curvature="0"
+           id="path3031"
+           d="m 483.40184,733.38131 c 0,0 60.04662,24.81542 66.39873,29.5049 6.35212,4.68949 0.63219,4.99086 -6.05253,2.08614 -4.05872,-1.76365 -60.3462,-31.59104 -60.3462,-31.59104 z"
+           style="fill:#ffff00;fill-opacity:0.94117647;stroke:none" />
+        <path
+           sodipodi:nodetypes="csssc"
+           inkscape:connector-curvature="0"
+           id="path3033"
+           d="m 484.87322,720.90587 c 0,0 -19.06663,-2.0203 -17.5514,9.09138 1.51523,11.11168 21.55252,34.02357 23.23351,34.72399 1.51523,0.63135 -17.41115,-29.25266 -17.80394,-32.19861 -0.25253,-1.89404 -4.67196,-5.68211 12.12183,-11.61676 z"
+           style="fill:#ffff00;fill-opacity:0.94117647;stroke:none" />
+        <path
+           id="path3035"
+           d="m 474.03125,737.40625 c -6.04414,0.0504 -11.40279,2.14076 -14.9375,6.34375 -8.07934,9.60683 -3.60968,26.67927 10,38.125 13.60968,11.44573 31.20191,12.91933 39.28125,3.3125 6.0595,-7.20512 5.06127,-18.60857 -1.5625,-28.6875 5.42258,8.43555 6.18196,17.92446 1.125,23.9375 -6.81909,8.10833 -21.6382,6.84788 -33.125,-2.8125 -11.4868,-9.66038 -15.28784,-24.04792 -8.46875,-32.15625 6.81909,-8.10833 21.66945,-6.84788 33.15625,2.8125 1.43585,1.20755 2.74803,2.47826 3.9375,3.8125 -1.51821,-1.7538 -3.1897,-3.45623 -5.0625,-5.03125 -7.65545,-6.43822 -16.57271,-9.72103 -24.34375,-9.65625 z"
+           style="fill:#ffff00;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffff00;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none"
+           d="m 535.90309,737.40625 c -6.04414,0.0504 -11.40279,2.14076 -14.9375,6.34375 -8.07934,9.60683 -3.60968,26.67927 10,38.125 13.60968,11.44573 31.20191,12.91933 39.28125,3.3125 6.0595,-7.20512 5.06127,-18.60857 -1.5625,-28.6875 5.42258,8.43555 6.18196,17.92446 1.125,23.9375 -6.81909,8.10833 -21.6382,6.84788 -33.125,-2.8125 -11.4868,-9.66038 -15.28784,-24.04792 -8.46875,-32.15625 6.81909,-8.10833 21.66945,-6.84788 33.15625,2.8125 1.43585,1.20755 2.74803,2.47826 3.9375,3.8125 -1.51821,-1.7538 -3.1897,-3.45623 -5.0625,-5.03125 -7.65545,-6.43822 -16.57271,-9.72103 -24.34375,-9.65625 z"
+           id="path3037" />
+      </g>
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3039"
+         d="m 1083.0653,-76.524759 27.9183,-27.134681 14.7119,12.209867 10.9953,-7.815925 23.8542,22.590363 z"
+         style="fill:#ffff00;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="19.798889"
+       inkscape:export-xdpi="19.798889"
+       inkscape:export-filename="/home/matus/NetbeansProjects/Traininglog.v1.1/images/css/activity-icons-small.png"
+       style="fill:#008080;fill-opacity:0.94117647"
+       transform="matrix(-0.78387271,0,0,0.77533644,1638.3882,-703.42681)"
+       id="g3819">
+      <path
+         style="fill:#008080;fill-opacity:0.94117647;stroke:none"
+         d="m 483.63869,670.99036 c 4.84407,-0.5179 12.2232,0.98024 12.40178,9.19452 0.17857,8.21429 -8.50938,5.15425 -11.43096,3.65882 -4.32981,-2.21625 -8.60466,-12.03716 -0.97082,-12.85334 z"
+         id="path3821"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ssss" />
+      <path
+         style="fill:#008080;fill-opacity:0.94117647;stroke:none"
+         d="m 471.4052,713.1727 c 0,0 12.95182,-3.60817 21.75313,-19.77571 8.80134,-16.16752 13.60849,-13.85408 23.02889,-8.2239 9.8381,5.87981 25.79324,24.56544 28.38793,33.00029 5.1006,18.43091 -24.43102,17.8379 -40.44807,13.31022 -3.95792,-1.23335 12.74858,42.80066 12.74858,42.80066 0,0 -26.12957,-35.98666 -24.84412,-43.90276 1.81049,-11.14956 10.31139,-11.55978 13.94058,-11.70762 3.7109,-0.15116 21.83146,0.54283 23.25889,-0.0684 1.42742,-0.6112 -8.85446,-19.28858 -22.8172,-26.1376 -3.87507,-1.90082 -1.8708,9.79953 -10.70766,12.70764 l -24.30095,7.99716 z"
+         id="path3823"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csscccssssscc" />
+      <path
+         style="fill:#008080;fill-opacity:0.94117647;stroke:none"
+         d="m 483.40184,733.38131 c 0,0 60.04662,24.81542 66.39873,29.5049 6.35212,4.68949 0.63219,4.99086 -6.05253,2.08614 -4.05872,-1.76365 -60.3462,-31.59104 -60.3462,-31.59104 z"
+         id="path3825"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssc" />
+      <path
+         style="fill:#008080;fill-opacity:0.94117647;stroke:none"
+         d="m 482.45228,718.35926 c 0,0 -18.15776,-6.21794 -19.1014,4.95819 -0.94363,11.17614 13.60792,37.98847 15.09496,39.04613 1.3404,0.95337 -10.60808,-32.41226 -10.34919,-35.37332 0.16646,-1.90374 -3.31881,-6.5832 14.35563,-8.631 z"
+         id="path3827"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc" />
+      <path
+         id="path3832"
+         d="m 535.90309,737.40625 c -6.04414,0.0504 -11.40279,2.14076 -14.9375,6.34375 -8.07934,9.60683 -3.60968,26.67927 10,38.125 13.60968,11.44573 31.20191,12.91933 39.28125,3.3125 6.0595,-7.20512 5.06127,-18.60857 -1.5625,-28.6875 5.42258,8.43555 6.18196,17.92446 1.125,23.9375 -6.81909,8.10833 -21.6382,6.84788 -33.125,-2.8125 -11.4868,-9.66038 -15.28784,-24.04792 -8.46875,-32.15625 6.81909,-8.10833 21.66945,-6.84788 33.15625,2.8125 1.43585,1.20755 2.74803,2.47826 3.9375,3.8125 -1.51821,-1.7538 -3.1897,-3.45623 -5.0625,-5.03125 -7.65545,-6.43822 -16.57271,-9.72103 -24.34375,-9.65625 z"
+         style="fill:#008080;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#008080;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none"
+         d="m 464.15899,737.40625 c -6.04414,0.0504 -11.40279,2.14076 -14.9375,6.34375 -8.07934,9.60683 -3.60968,26.67927 10,38.125 13.60968,11.44573 31.20191,12.91933 39.28125,3.3125 6.0595,-7.20512 5.06127,-18.60857 -1.5625,-28.6875 5.42258,8.43555 6.18196,17.92446 1.125,23.9375 -6.81909,8.10833 -21.6382,6.84788 -33.125,-2.8125 -11.4868,-9.66038 -15.28784,-24.04792 -8.46875,-32.15625 6.81909,-8.10833 21.66945,-6.84788 33.15625,2.8125 1.43585,1.20755 2.74803,2.47826 3.9375,3.8125 -1.51821,-1.7538 -3.1897,-3.45623 -5.0625,-5.03125 -7.65545,-6.43822 -16.57271,-9.72103 -24.34375,-9.65625 z"
+         id="path3834" />
+      <path
+         style="fill:#007c80;fill-opacity:0.94117647;stroke:none"
+         d="m 556.5,754.5625 c -6.65463,0 -29.21875,38.9375 -29.21875,38.9375 -2.33119,4.97766 4.89914,7.44798 7.5625,3.4375 8.20018,-10.83263 14.77188,-22.93107 22.21875,-34.34375 6.26323,9.74354 12.15019,19.76017 18.59375,29.34375 -6.46064,0.20878 -14.27295,-0.98528 -19.75,2.9375 -0.77957,6.81865 26.56268,4.93053 29.84375,4.1875 4.58472,-3.95586 -0.88449,-9.92602 -3.4375,-13.5625 0,0 -18.90026,-30.94917 -25.8125,-30.9375 z"
+         id="path3836"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccc" />
+    </g>
   </g>
 </svg>

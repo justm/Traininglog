@@ -204,9 +204,8 @@
 			}
 		});
 	});
-</script>  
+</script><?php 
 
-<?php 
 Yii::app()->clientScript->registerScript('labels-handler',
     'var labelsTable = $("#TrainingPlan-labels").find("tbody").html();
      $(document).ready(function(){
@@ -327,9 +326,7 @@ Yii::app()->clientScript->registerScript('calendar-handler',
         });
     });'
     ,CClientScript::POS_END);
-?>
-
-<?php 
+ 
 Yii::app()->clientScript->registerScript('show_fl_input_update',
     'function show_fl_input_update($element){
         //var lablesTable;
@@ -377,9 +374,7 @@ Yii::app()->clientScript->registerScript('show_fl_input_update',
             });
     }'
     ,CClientScript::POS_END);
-?>
 
-<?php 
 Yii::app()->clientScript->registerScript('show_fl_input_create',
     'function show_fl_input_create($element){
         if(labelsTable != ""){
@@ -402,9 +397,7 @@ Yii::app()->clientScript->registerScript('show_fl_input_create',
         $(".input-trainig-time").val("");
     }'
     ,CClientScript::POS_END);
-?>
-
-<?php 
+ 
 Yii::app()->clientScript->registerScript('delete-entry',
     'function delete_entry($element){
         id = $element.parent().attr("id");
@@ -428,9 +421,7 @@ Yii::app()->clientScript->registerScript('delete-entry',
         });
     }'
     ,CClientScript::POS_END);
-?>
 
-<?php 
 Yii::app()->clientScript->registerScript('drag-and-drop',
     'function allowDrop(ev){
         ev.preventDefault();
@@ -455,7 +446,6 @@ Yii::app()->clientScript->registerScript('drag-and-drop',
         });
     }'
     ,CClientScript::POS_END);
-?>
 
 
 

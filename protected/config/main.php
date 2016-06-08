@@ -42,6 +42,7 @@ return array(
 			'class'=>'WebUser'
 		),
 		//URLs in path-format
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -60,8 +61,7 @@ return array(
 				'<language:[a-z]{2}>/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                                 
                                 //Pri pouzivani GII zakomentuj urlManager a pristupuj cez adresu index.php?r=gii/default/login
-                                
-                                
+
 			),
                         'class' => 'I18nUrlManager'
 		),
@@ -104,8 +104,8 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
                 'homePath'=>  "", //na remote serveri odobrat index.php a pouzivat clean url
-                'homeUrl'=>'http://mojtrening.justm.sk/',
-                'fullPath'=>'http://mojtrening.justm.sk/',
+                'homeUrl'=>'http://inhillz.com/',
+                'fullPath'=>'http://inhillz.com/',
                 'uploadDirectory'=>dirname(__FILE__).'/../../uploads/',
         ),
 );

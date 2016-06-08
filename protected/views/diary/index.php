@@ -280,6 +280,7 @@
                     $sumtothours = strtotime('1970-01-01 00:00:00');
                     $todayDate = date('Y-m-d');
                     $todayDatetime = strtotime("$todayDate 00:00:00");
+
                     echo '<table>';
                     foreach($summary[$i] as $value){
                         
@@ -287,6 +288,7 @@
                         echo '<th>'.$value->tottime.'</th></tr>';
                         $sumtotdays += $value->totworkouts;
                         $sumtothours += strtotime("$todayDate $value->tottime") - $todayDatetime;
+
                     }
                     echo '</table>';
                     echo '<hr>';
@@ -296,9 +298,6 @@
                     echo '</div>';
             
                 echo '</div></div><div style="clear: both"></div></div> ';  
-
-                
-                
     endfor; 
 ?>
     
@@ -399,8 +398,6 @@ CClientScript::POS_END);
 
 Yii::app()->clientScript->registerScript('calendar-handler',
     '$(document).ready(function(){
-        
-        
         $(document).on("click",".single-day-full",function(){
             window.location.assign("http://ride.inhillz.com/upload/manual/");
         });
@@ -412,8 +409,7 @@ Yii::app()->clientScript->registerScript('calendar-handler',
         });
         
         /*************************/
-        
-        
+
         $("#date-chooser-submit").click(function(){
             val = $("#chooseDate").val();
             window.location.assign("'.Yii::app()->params->homePath.'/'.Yii::app()->language.'/diary/index/"+val);
@@ -425,7 +421,7 @@ Yii::app()->clientScript->registerScript('calendar-handler',
             $("#DiaryInput-preloader").show();
             $("#DiaryInput-form").hide();
         });
-        
+
         $(document).on("mouseover",".single-entry",
             function(){
                 $(this).find(".single-day-delete").html("X");
@@ -559,5 +555,3 @@ Yii::app()->clientScript->registerScript('feelings-selector',
         });
     });',
 CClientScript::POS_END);
-
-?>

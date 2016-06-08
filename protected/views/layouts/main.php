@@ -56,9 +56,7 @@
             </div>
         </div>
         <?php endif;
-        
-        //** END OF NOTICES
-        
+
             if(Yii::app()->user->isGuest){
                 $this->createNav(array(
                     'home'=>$this->createLink(Yii::t('global','Home'),Yii::t('global','Home page'),''),
